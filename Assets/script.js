@@ -22,14 +22,16 @@ function getRandomNumber() {
 function getRandomSymbol() {
   return String.fromCharCode(Math.floor(Math.random() * 15) + 33);
 }
-console.log(getRandomSymbol());
 
 
 //empty arrays to generate from
 var passwordArray = [];
 var userChoices = [];
 
-
+//generatePassword function
+function generatePassword() {
+  var numberOfCharacters = window.prompt("How many numbe of characters to include (Password should be minimum 8 characters and maximum 128 characters):");
+}
 
 
 
